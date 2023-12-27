@@ -995,7 +995,6 @@ progress::-webkit-progress-bar {
   }
 
   & .setup-guide-texts {
-
     cursor: pointer;
     & h3 {
       font-size: 13px;
@@ -1114,8 +1113,17 @@ progress::-webkit-progress-bar {
     align-items: center;
     padding: 2px 2px 2px 8px;
   }
-  .setup-guide-image {
-    display: block;
-    align-self: center;
+  .setup-guide {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    & .setup-guide-texts {
+      width: 65%;
+    }
+    .setup-guide-image {
+      display: block;
+      align-self: center;
+    }
   }
 }
